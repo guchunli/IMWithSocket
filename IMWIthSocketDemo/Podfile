@@ -1,6 +1,0 @@
-platform :ios, "8.0"
-target "IMWIthSocketDemo" do
-use_frameworks!
-pod 'SocketRocket'
-pod "MQTTKit"
-end
