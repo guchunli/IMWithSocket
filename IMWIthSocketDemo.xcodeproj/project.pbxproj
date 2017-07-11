@@ -21,6 +21,7 @@
 		185F17FB1E2DC0B400C4B73D /* WSServer.js in Resources */ = {isa = PBXBuildFile; fileRef = 185F17FA1E2DC0B400C4B73D /* WSServer.js */; };
 		185F18001E2DC42000C4B73D /* MQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F17FF1E2DC42000C4B73D /* MQTTManager.m */; };
 		185F18021E2DC5B800C4B73D /* MQTTServer.js in Resources */ = {isa = PBXBuildFile; fileRef = 185F18011E2DC5B800C4B73D /* MQTTServer.js */; };
+		71CA2F801F14A88100A65C11 /* TestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA2F7F1F14A88100A65C11 /* TestTool.m */; };
 		C08C99DD99F0D87BC67930CD /* Pods_IMWIthSocketDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFE1874B2D65369865C0118 /* Pods_IMWIthSocketDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,8 @@
 		185F18011E2DC5B800C4B73D /* MQTTServer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MQTTServer.js; sourceTree = "<group>"; };
 		2652B823224AFBEB39B07835 /* Pods-IMWIthSocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMWIthSocketDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMWIthSocketDemo/Pods-IMWIthSocketDemo.release.xcconfig"; sourceTree = "<group>"; };
 		60EA0EB9F22137A8DA2BAA17 /* Pods-IMWIthSocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMWIthSocketDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMWIthSocketDemo/Pods-IMWIthSocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		71CA2F7E1F14A88100A65C11 /* TestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTool.h; sourceTree = "<group>"; };
+		71CA2F7F1F14A88100A65C11 /* TestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTool.m; sourceTree = "<group>"; };
 		ADFE1874B2D65369865C0118 /* Pods_IMWIthSocketDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMWIthSocketDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +93,7 @@
 				185F178F1E2DB35C00C4B73D /* AppDelegate.m */,
 				185F17911E2DB35C00C4B73D /* ViewController.h */,
 				185F17921E2DB35C00C4B73D /* ViewController.m */,
+				71CA2F7D1F14A86C00A65C11 /* Classes */,
 				185F17FC1E2DC0B700C4B73D /* nodejs */,
 				185F17AE1E2DBBC900C4B73D /* Socket */,
 				185F17AA1E2DB9A500C4B73D /* GCDAsynSocket */,
@@ -175,6 +179,15 @@
 				2652B823224AFBEB39B07835 /* Pods-IMWIthSocketDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		71CA2F7D1F14A86C00A65C11 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71CA2F7E1F14A88100A65C11 /* TestTool.h */,
+				71CA2F7F1F14A88100A65C11 /* TestTool.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7FABACA4B41717E0A2EAD945 /* Frameworks */ = {
@@ -314,6 +327,7 @@
 			files = (
 				185F17AD1E2DB9BD00C4B73D /* GCDAsyncSocket.m in Sources */,
 				185F18001E2DC42000C4B73D /* MQTTManager.m in Sources */,
+				71CA2F801F14A88100A65C11 /* TestTool.m in Sources */,
 				185F17931E2DB35C00C4B73D /* ViewController.m in Sources */,
 				185F17F91E2DBC9B00C4B73D /* WebSocketManager.m in Sources */,
 				185F17901E2DB35C00C4B73D /* AppDelegate.m in Sources */,
